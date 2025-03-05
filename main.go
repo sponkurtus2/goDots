@@ -22,10 +22,5 @@ func main() {
 		time.Sleep(time.Second * 3000)
 		os.Exit(0) // Manually exit with Ctrl + c
 		break
-	case "Surprise":
-		centerArea.Update(pterm.Sprint(dotsis.GetSecondCat()))
-		time.Sleep(time.Second * 3000)
-		os.Exit(0) // Manually exit with Ctrl + c
-		break
 	}
 }
